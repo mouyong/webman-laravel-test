@@ -8,6 +8,12 @@ class Index
 {
     public function index(Request $request)
     {
+        dump(get_class(app('cache')->driver('redis')));
+        dump(app('cache')->get('aaa'));
+        dump(cache()->set('aaa', 2222));
+        dump(cache()->get('aaa'),'aaaa');
+        \Cache::set('aaa', 111);
+        dump(\Cache::get('aaa'), 'bbbb');
         \validator()->validate($request->all(), [
             'b' => 'required',
         ], [

@@ -14,13 +14,14 @@
     10 => 'Illuminate\\Pagination\\PaginationServiceProvider',
     11 => 'Illuminate\\Pipeline\\PipelineServiceProvider',
     12 => 'Illuminate\\Queue\\QueueServiceProvider',
-    13 => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
-    14 => 'Illuminate\\Session\\SessionServiceProvider',
-    15 => 'Illuminate\\Translation\\TranslationServiceProvider',
-    16 => 'Illuminate\\Validation\\ValidationServiceProvider',
-    17 => 'Illuminate\\View\\ViewServiceProvider',
-    18 => 'Carbon\\Laravel\\ServiceProvider',
-    19 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    13 => 'Illuminate\\Redis\\RedisServiceProvider',
+    14 => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
+    15 => 'Illuminate\\Session\\SessionServiceProvider',
+    16 => 'Illuminate\\Translation\\TranslationServiceProvider',
+    17 => 'Illuminate\\Validation\\ValidationServiceProvider',
+    18 => 'Illuminate\\View\\ViewServiceProvider',
+    19 => 'Carbon\\Laravel\\ServiceProvider',
+    20 => 'Termwind\\Laravel\\TermwindServiceProvider',
   ),
   'eager' => 
   array (
@@ -156,6 +157,8 @@
     'queue.failer' => 'Illuminate\\Queue\\QueueServiceProvider',
     'queue.listener' => 'Illuminate\\Queue\\QueueServiceProvider',
     'queue.worker' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'redis' => 'Illuminate\\Redis\\RedisServiceProvider',
+    'redis.connection' => 'Illuminate\\Redis\\RedisServiceProvider',
     'auth.password' => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
     'auth.password.broker' => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
     'translator' => 'Illuminate\\Translation\\TranslationServiceProvider',
@@ -184,6 +187,9 @@
     array (
     ),
     'Illuminate\\Queue\\QueueServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Redis\\RedisServiceProvider' => 
     array (
     ),
     'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider' => 

@@ -45,7 +45,8 @@
     "illuminate/auth": "^9.35",
     "illuminate/notifications": "^9.35",
     "illuminate/validation": "^9.35",
-    "league/flysystem": "^3.6"
+    "league/flysystem": "^3.6",
+    "illuminate/redis": "^9.35"
   },
   "suggest": {
     "ext-event": "For better performance. "
